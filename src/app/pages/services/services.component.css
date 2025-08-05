@@ -1,0 +1,67 @@
+.services-hero {
+  background: linear-gradient(120deg, #1976d2 60%, #000 100%);
+  color: #fff;
+  text-align: center;
+  padding: 48px 0 32px 0;
+}
+.services-hero-img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+.services-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.services-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 28px 18px;
+  text-align: center;
+  width: 260px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+.service-card h2 {
+  margin: 12px 0 8px 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.service-card p {
+  color: #444;
+  font-size: 1rem;
+}
+.why-choose {
+  text-align: center;
+  margin-top: 48px;
+}
+.why-choose h2 {
+  margin-bottom: 18px;
+}
+.why-choose ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 20px;
+}

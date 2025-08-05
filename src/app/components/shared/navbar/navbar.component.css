@@ -1,0 +1,30 @@
+.mat-toolbar {
+  background: #1976d2; /* Replace with your desired color */
+  color: #fff;         /* Optional: set text color */
+}
+
+.nav-link {
+  text-decoration: none !important;
+
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link.cdk-program-focused,
+.nav-link.cdk-focused,
+.nav-link[aria-current="page"] {
+  color: #000 !important;
+}
+
+.active-link {
+  color: #000 !important;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
